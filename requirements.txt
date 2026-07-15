@@ -1,0 +1,25 @@
+# Orchestration agentique
+langgraph>=0.2.60
+
+# LangChain (core + intégrations utilisées)
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+langchain-ollama>=0.2.0
+langchain-chroma>=0.2.0
+langchain-text-splitters>=0.3.0
+
+# Base vectorielle
+chromadb>=0.5.0
+
+# Lecture de PDF
+pypdf>=4.0.0
+
+# Téléchargement des articles arXiv
+requests>=2.31.0
+
+# Configuration via fichier .env
+python-dotenv>=1.0.0
+
+# Utilisé pour Annotated/TypedDict de façon portable dans src/state.py
+typing_extensions>=4.10.0

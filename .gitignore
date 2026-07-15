@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python
+*.egg-info/
+
+# Environnements virtuels
+.venv/
+venv/
+env/
+
+# Secrets / configuration locale
+.env
+
+# Base vectorielle (régénérée par scripts/build_vectorstore.py, ne pas versionner)
+chroma_db/
+
+# Visualisations et résultats régénérables
+outputs/*.png
+evaluation/results/*.json
+evaluation/results/*.csv
+
+# Divers
+.DS_Store
+*.log
